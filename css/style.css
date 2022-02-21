@@ -11,7 +11,7 @@ background-color: #ffff;
 margin:auto;
 box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-a:visited:hover {color: orangered;};
+
 /* Main content section*/
 
 .main-contest-section{
@@ -32,7 +32,6 @@ a:visited:hover {color: orangered;};
   
   .about-me-section {
     margin-bottom: 60; 
-
   }
  
     
@@ -69,29 +68,38 @@ a:visited:hover {color: orangered;};
  
  .my-projects-section {
     margin-bottom: 50px;
+    color: #A8A8A8;
      }
  .my-projects-list{
      padding: 0 0 0 17px;
  }
 
  .my-projects-item{
-     color: #000000;
+     color: black;
      font-weight: bold;
- }
+   }
+
+
+ 
     .my-projects-link{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: darkslategrey;
+    color: black;
     }
+  
+.my-projects-link:hover{
+  color: red;
+  opacity: 1;
+}
  .my-projects-text{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: darkslategray;
     margin-left: 5px;
+    color: black;
  }
 
  .my-projects-bracket{
@@ -99,8 +107,10 @@ a:visited:hover {color: orangered;};
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
+    color: orangered;
  }
+
+
   /*My work experiance*/
 
  .my-work-experience-company{
