@@ -1,12 +1,15 @@
 body {
-font-family: 'Montserrat', sans-serif;
- background: #F5F7FA;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+  padding: 0;
+  margin: 0;
 }
 
 .main-container{
 display: flex;
 flex-direction: row;
 width: 1600px;
+height: 2262px;
 background-color: #ffff;
 margin:auto;
 box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -68,7 +71,7 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
  
  .my-projects-section {
     margin-bottom: 50px;
-    color: #A8A8A8;
+   color: lightslategray;
      }
  .my-projects-list{
      padding: 0 0 0 17px;
@@ -130,7 +133,7 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
  font-weight: normal;
  font-size: 12px;
  line-height: 15px;
- color: #A8A8A8;
+ color: lightslategray;
  margin: 0 0 10px 0;
   }
 
@@ -176,7 +179,7 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    color: darkgrey;
+    color: lightslategray;
   }
 
   .my-university-period-divared{
@@ -194,7 +197,8 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 
  .Contacts-section,
  .Tech-skill-section,
- .Soft-Skills-section{
+ .Soft-Skills-section,
+ .Languages-section {
     margin:  10px;
  }
 
@@ -225,24 +229,27 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
  line-height: 24px;
  text-decoration: none;
  }
-
-
+.Contacts-section-link:hover {
+   color: orangered;
+}
+.Tech-skill-item-text:hover {
+   color: orangered;
+}
+.Soft-scills-item-text:hover {
+   color: orangered;
+}
+.Languages-scills-item-text:hover {
+   color: orangered;
+}
    /* Tech scills & soft scills*/ 
 
-   .Soft-scills-list{
-    margin:  40px 0 0 17px;
+   .Soft-scills-list,
+   .Languages-scills-list,
+   .Tech-skill-list {
+     margin:  40px 0 0 17px;
+     padding: 0 17px 0 0;
    }
    
-
- .Tech-skill-list{
-    padding: 0 0 0 17px;
- }
-
- .Soft-scills-list{
-     padding: 0 17px 0 0;
- }
- 
-
  .Sadebar-title{
     font-style: normal;
     font-weight: bold;
@@ -253,22 +260,26 @@ box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
    }
    
  .Tech-skill-item,
- .Soft-scills-item{
+ .Soft-scills-item,
+ .Languages-scills-item{
     color: orangered;
  }
 
   .Tech-skill-item-text,
-  .Soft-scills-item-text{
+  .Soft-scills-item-text,
+  .Languages-scills-item-text{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #fff;
  }
+
 .main-contest-section{
 background-color: lightgrey;
 margin: 20px;
 padding: 20px;
 
 }
+
 
