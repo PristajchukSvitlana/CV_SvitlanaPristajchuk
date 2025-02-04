@@ -324,7 +324,7 @@ body {
 .sidebar_section {
     background-color: darkcyan;
     width: 30%;
-    padding: 20px
+    /* padding: 20px*/
 }
 
 .contacts_section,
